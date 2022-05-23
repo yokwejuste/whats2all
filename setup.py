@@ -22,7 +22,7 @@ setup(
     author = 'whats2all',
     author_email = '',
     install_requires = ['requests'],
-    packages = find_packages('src'),
+    packages = find_packages(),
     license = 'MIT',
     classifiers = classifiers
 )
